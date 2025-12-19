@@ -34,6 +34,7 @@ Train a Recurrent Neural Network (RNN) to classify movie reviews as **Positive**
 ### Output
 - Training and validation accuracy
 - Final test accuracy
+![image](https://github.com/username/repo/raw/main/images/lab1_accuracy.png)
 
 ---
 
