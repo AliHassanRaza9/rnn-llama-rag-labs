@@ -1,0 +1,12 @@
+Introduction to Artificial Intelligence and RAG Systems
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are designed to think and act like humans. AI systems can perform tasks such as learning, reasoning, problem-solving, perception, and language understanding.
+
+One important branch of AI is Natural Language Processing (NLP), which focuses on enabling machines to understand, interpret, and generate human language. Large Language Models (LLMs), such as LLaMA, are advanced NLP models trained on massive amounts of text data.
+
+However, LLMs can sometimes generate incorrect information, a problem known as hallucination. To reduce hallucination, Retrieval-Augmented Generation (RAG) is used. RAG combines information retrieval with text generation to improve factual accuracy.
+
+In a RAG system, documents are divided into small chunks, usually 200 to 300 words. These chunks are converted into numerical representations called embeddings using models such as SentenceTransformers. Embeddings capture semantic meaning.
+
+When a user asks a question, the question is also converted into an embedding and compared with document embeddings using similarity measures like cosine similarity. The most relevant chunks are retrieved and provided as context to the language model.
+
+The language model is instructed to answer the question using only the retrieved context. This greatly reduces hallucinations and improves reliability. RAG systems are used in chatbots, knowledge assistants, enterprise search, and research applications.
